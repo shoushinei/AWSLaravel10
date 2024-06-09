@@ -22,6 +22,7 @@ class PostSeeder extends Seeder
                 'body' => '命名はデータを基準に考える',
                 'created_at' => new DateTime(),
                 'updated_at' => new DateTime(),
+                'category_id' => 1
          ]);
     }
 }
